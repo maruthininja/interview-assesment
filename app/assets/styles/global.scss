@@ -1,7 +1,39 @@
 html {
+  --color-primary: rgb(109, 40, 217);
+  --color-primary-focus: rgba(109, 40, 217, 0.24);
+  --color-secondary: rgb(67, 56, 84);
+  --color-page-background: rgb(248, 247, 252);
+  --color-surface: rgb(255, 255, 255);
+  --color-border: rgb(214, 209, 224);
+  --color-border-muted: rgb(226, 221, 235);
+  --color-border-control: rgb(203, 194, 219);
+  --color-text: rgb(24, 24, 27);
+}
+
+html.theme-dark {
+  --color-primary: rgb(167, 139, 250);
+  --color-primary-focus: rgba(167, 139, 250, 0.28);
+  --color-secondary: rgb(203, 194, 219);
+  --color-page-background: rgb(18, 18, 24);
+  --color-surface: rgb(31, 31, 39);
+  --color-border: rgb(72, 65, 86);
+  --color-border-muted: rgb(57, 51, 69);
+  --color-border-control: rgb(92, 83, 111);
+  --color-text: rgb(244, 244, 245);
+}
+
+html {
   font-family: "Poppins", Arial, sans-serif;
 }
 
 body {
   margin: 0;
+  background: var(--color-page-background);
+  color: var(--color-text);
+}
+
+.app-shell {
+  min-height: 100vh;
+  background: var(--color-page-background);
+  color: var(--color-text);
 }

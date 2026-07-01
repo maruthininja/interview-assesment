@@ -5,7 +5,7 @@
       <!-- header :: start -->
       <div class="games-section__header">
         <div>
-          <h1 id="games-heading">Interview Assesment</h1>
+          <h2 id="games-heading">Game Library</h2>
         </div>
         <label class="sort-control">
           <span>Sort by</span>

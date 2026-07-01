@@ -1,11 +1,11 @@
-$color-primary: rgb(109, 40, 217);
-$color-primary-focus: rgba(109, 40, 217, 0.24);
-$color-secondary: rgb(67, 56, 84);
-$color-page-background: rgb(248, 247, 252);
-$color-surface: rgb(255, 255, 255);
-$color-border: rgb(214, 209, 224);
-$color-border-muted: rgb(226, 221, 235);
-$color-border-control: rgb(203, 194, 219);
+$color-primary: var(--color-primary);
+$color-primary-focus: var(--color-primary-focus);
+$color-secondary: var(--color-secondary);
+$color-page-background: var(--color-page-background);
+$color-surface: var(--color-surface);
+$color-border: var(--color-border);
+$color-border-muted: var(--color-border-muted);
+$color-border-control: var(--color-border-control);
 
 $breakpoint-sm: 640px;
 $breakpoint-md: 768px;

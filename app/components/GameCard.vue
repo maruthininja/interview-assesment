@@ -33,6 +33,7 @@ const imageSrc = computed(() => formattedGameImageUrl(props.game, { baseUrl: con
 <style lang="scss" scoped>
 .game-card {
     border: 1px solid $color-border;
+    border-radius: 8px;
     overflow: hidden; // clips image to rounded corners
     background: $color-surface;
     color: inherit;
